@@ -75,7 +75,7 @@
      padding-bottom: 37px;
  }
 
- .portfolio{
+ #images{
      align-items: center;
      display: flex;
      flex-wrap: wrap;
@@ -88,9 +88,17 @@
      max-height: 100%;
  }
 
- .portfolio, h2{
+ .portfolio h2{
     text-align: center;
     padding-top:39px;
     font-family: serif;
  }
 
+ .contact{
+     background-image: url("../assets/backgrounds/c_image.jpg");
+     color: white;
+     text-align: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:center center;
+ }
