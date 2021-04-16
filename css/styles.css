@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+
+.landing{
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+    background-position: center center;
+    padding:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.landing, h1{
+    padding:3px;
+    margin: 6px;
+}
+ .landing, p{
+     padding:2px;
+ }
+ #logo{
+     width: 65px;
+     height:65px;
+ }
