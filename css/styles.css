@@ -59,7 +59,7 @@
      padding-bottom: 10%;
  }
 
- .services2{
+ .services{
      text-align: center;
      padding-top: 30px;
      font-family: serif;
@@ -70,3 +70,27 @@
     padding-top: 38px;
     font-family: serif;
  }
+
+ .services2{
+     padding-bottom: 37px;
+ }
+
+ .portfolio{
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     margin-right: 15%;
+     margin-left: 17%;
+ }
+
+ .col-md-3 img{
+     max-width: 100%;
+     max-height: 100%;
+ }
+
+ .portfolio, h2{
+    text-align: center;
+    padding-top:39px;
+    font-family: serif;
+ }
+
