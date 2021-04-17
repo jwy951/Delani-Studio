@@ -76,11 +76,11 @@
  }
 
  #images{
-     align-items: center;
      display: flex;
+     align-items: center;
      flex-wrap: wrap;
-     margin-right: 15%;
-     margin-left: 17%;
+     margin-right: 18%;
+     margin-left: 20%;
  }
 
  .col-md-3 img{
@@ -118,14 +118,12 @@
      font-size: 15px;
  }
 
-#product .title,
-#development .title,
-#design .title{
+#product .title,#development .title,#design .title{
     font-size: 22px;
     font-weight: 600;
 }
 
-/*#display1, #display2, #display3, #display4, #display5, #display6, #display7, #display8{
+#display1, #display2, #display3, #display4, #display5, #display6, #display7, #display8{
     color: rgba(0, 0, 0, 0.856);
     width: 100%;
     Height: 100%;
@@ -137,9 +135,9 @@
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    padding-top: 50%;
+    padding-top: 50%;;
     font-family: 'Delius Swash Caps'
-}*/
+}
 
 @media only screen and (max-width: 755px){
     #display1, #display2, #display3, #display4, #display5, #display6, #display7, #display8{
@@ -220,4 +218,5 @@
     #images {
         margin-left: 6%;
         margin-right: 10%;
+    }
 }
