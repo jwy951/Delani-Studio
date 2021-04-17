@@ -80,7 +80,7 @@
      align-items: center;
      flex-wrap: wrap;
      margin-right: 18%;
-     margin-left: 20%;
+     margin-left: 18%;
  }
 
  .col-md-3 img{
@@ -101,6 +101,29 @@
      background-repeat: no-repeat;
      background-size: cover;
      background-position:center center;
+ }
+
+ .title{
+     padding: 6px;
+ }
+ .contact h2{
+     text-align: center;
+
+ }
+
+ .contact h2 {
+     text-align: center;
+     margin-top: 30px;
+     padding-top: 40px;
+     padding-bottom: 20px;
+     font-family: 'Gabriela', serif;
+ }
+
+ input[type=text],input[type=email] {
+     background: transparent;
+     color: white;
+     font-size: 20px;
+     font-family: 'Copse', serif;
  }
 
  footer{
