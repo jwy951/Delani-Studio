@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $(".col-md-4").click(function(){
+        $(this).siblings.hide();
+    })
+    $(".picture").click(function(){
+        $(this).slideDown();
+        $(this).siblings(".define").show();
+    })
+})
