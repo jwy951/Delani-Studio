@@ -3,8 +3,13 @@ $(document).ready(function(){
         $(this).siblings.hide();
     })
     $(".picture").click(function(){
-        $(this).slideDown();
+        $(this).hide();
         $(this).siblings(".define").show();
+    })
+
+    $(".define").click(function(){
+        $(this).hide();
+        $(this).siblings(".picture").show();
     })
 })
 
