@@ -152,19 +152,18 @@
 }
 
 #display1, #display2, #display3, #display4, #display5, #display6, #display7, #display8{
-    color: rgba(0, 0, 0, 0.856);
+    color: rgba(61, 238, 16, 0.856);
     width: 100%;
     Height: 100%;
     background-color: rgb(21, 131, 131);
-    position:absolute;
-    display: none;
     top: 20px;
-    left:35px;
+    left:34px;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
     padding-top: 50%;;
-    font-family: 'Delius Swash Caps'
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @media only screen and (max-width: 755px){
