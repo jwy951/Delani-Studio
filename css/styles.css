@@ -1,12 +1,12 @@
-.landing{
-    background-image: url("../assets/backgrounds/h_img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: aliceblue;
+.landing {
+    background-image: url('../assets/backgrounds/h_img.jpg');
     background-position: center center;
-    padding-top: 16%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 17%;
+    font-family: 'Gabriela', serif;
 }
 
 .landing, h1{
@@ -19,6 +19,8 @@
  #logo{
      width: 65px;
      height:65px;
+     margin-top: 13px;
+     margin-bottom:25px
  }
 
  #mouse-click {
@@ -48,18 +50,22 @@
 
  #about{
      font-family: serif;
+
  }
 
  .container1{
-     text-align:center
+     text-align:center;
+     padding-bottom: 30px;
+     padding-top: 40px;
+     font-family: 'Courier New', Courier, monospace;
  }
 
 
  .services{
-     background-image: url("../assets/backgrounds/s_image.jpg");
-     background-repeat:no-repeat;
-     background-size: cover;
-     background-position:center;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
     text-align:center;
     color:white;
     font-size:17px;
@@ -71,8 +77,9 @@
  }
 
  #services1{
-     padding: 12%;
+     padding: 10%;
      padding-bottom: 10%;
+     background-color: rgb(0,0,0,0,4)
  }
 
  .services{
@@ -92,11 +99,11 @@
  }
 
  #images{
-     display: flex;
-     align-items: center;
-     flex-wrap: wrap;
-     margin-right: 18%;
-     margin-left: 18%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 18%;
+    margin-left: 18%;
  }
 
  .col-md-3 img{
